@@ -1,4 +1,10 @@
 // Base styling for the navbar
+
+.logo {
+  height: 50px;
+  padding: 5px;
+  border-radius: 20px;
+}
 #mainNav {
   box-shadow: $box-shadow;
   background-color: $white;
@@ -55,7 +61,7 @@
     // Navbar styling applied when the page is scrolled
     &.navbar-scrolled {
       box-shadow: $box-shadow;
-      background-color: $white;
+      background-color: #fffff4;
       .navbar-brand {
         color: $gray-900;
         &:hover {
